@@ -1,0 +1,49 @@
+extends layout.pug
+
+block scripts
+    script(src='/public/script.js')
+
+block style
+   style
+        include ../public/style.css 
+
+block content 
+
+    section#introSection
+        div Welcome to MJ Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.cardContainer
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUpTSdpo5zOb8x0hDx_HEQApL-H22Aygyvh7fHnPay96xx9onu5BcI9MfBFWt1oZ80ug&usqp=CAU")
+                    div.card-content
+                        p This is the best dance academy of the universe
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="https://img.favpng.com/0/10/3/silhouette-vector-graphics-dance-royalty-free-illustration-png-favpng-RQwkQwqr0Gc6hSzCN4dy5Djji.jpg")
+                    div.card-content
+                        p This is the best dance academy of the universe
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkPJOntJl2IiNDEn8OQRLN19KsignGSnvt8DISP4fusiDJRUwXKk7EQvrT-OaExW-Kc0&usqp=CAU")
+                    div.card-content
+                        p This is the best dance academy of the universe
+    section#sponsorsSection
+        h2 Our Sponsers
+        div#sponsors
+            div
+                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png" ,class="spImage")
+            div
+                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/2560px-Skype_logo.svg.png" ,class="spImage")
+            div
+                img(src="https://cdn.emojidex.com/emoji/seal/apple_logo.png?1489277123" ,class="spImage")
+            div
+                img(src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" ,class="spImage")
